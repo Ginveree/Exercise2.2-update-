@@ -1,0 +1,63 @@
+package Exercise2point2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pencil coloured = new Pencil();//create new object from class phone name as coloured
+		Pencil charcoal = new Pencil();//create new object from class phone name as charcoal
+		Pencil graphite = new Pencil();//create new object from class phone name as graphite
+		Pencil mechanical = new Pencil();//create new object from class phone name as mechanical
+		
+		Sheep merino = new Sheep();//create new object from class phone name as merino
+		Sheep dorset = new Sheep();//create new object from class phone name as dorset
+		
+		System.out.println("******");
+		System.out.println("PENCIL");
+		System.out.println("******");
+		System.out.println();
+		coloured.printType("Coloured Pencil");
+		System.out.println("***************");
+		coloured.printDetails(19, "Faber-Castell", "Colouring");
+		coloured.printPrice(5.60);
+		
+		System.out.println();
+		
+		charcoal.printType("Charcoal Pencil");
+		System.out.println("***************");
+		charcoal.printDetails(22, "Royal & Langnickel", "Large Drawing");
+		charcoal.printPrice(13.50);
+		
+		System.out.println();
+		
+		graphite.printType("Graphite Pencil");
+		System.out.println("***************");
+		graphite.printDetails(20, "Prismacolor", "Small Drawing");
+		graphite.printPrice(13.00);
+		
+		System.out.println();
+		
+		mechanical.printType("Mechanical Pencil");
+		System.out.println("*****************");
+		mechanical.printDetails(19, "Alpha Gel Kuru Toga ", "Writing");
+		mechanical.printPrice(15.90);
+		
+		System.out.println();
+		
+		System.out.println("*****");
+		System.out.println("SHEEP");
+		System.out.println("*****");
+		System.out.println();
+		merino.printBreed("Merino");
+		System.out.println("******");
+		merino.printSize(117, 91, 127);
+		merino.printHabit("Momu");
+		merino.printSold(5);
+		
+		System.out.println();
+		dorset.printBreed("Dorset");
+		System.out.println("******");
+		dorset.printSize(123, 85, 131);		
+		dorset.printSold(3);
+	}
+
+}
