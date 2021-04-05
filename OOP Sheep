@@ -1,0 +1,22 @@
+package Exercise2point2;
+
+public class Sheep {
+	
+	void printBreed(String breed) {
+		System.out.println(breed);
+	}
+	void printSize(int height, int width, int length) {
+		System.out.println("Height: " + height + " cm");
+		System.out.println("Width: " + width + " cm");
+		System.out.println("Lengtht: " + length + " cm");
+	}
+	void printHabit(String sheepName) {
+		System.out.println(sheepName + " likes to scream at night.");
+	}
+	void printSold(int quantity) {
+		int price = 800;
+	    double totalPrice = price * quantity;
+		System.out.println("Sold out " + quantity + " sheeps with the price of RM " + totalPrice);
+	}
+
+}
