@@ -1,0 +1,25 @@
+package Exercise2point2;
+
+public class Pencil {
+	
+	void printType(String type) {
+		System.out.println(type);
+	}
+	void printDetails(int size, String brand, String function) {		
+		System.out.println("Size: " + size + " cm");
+		System.out.println("Brand: " + brand);
+		System.out.println("Function: " + function);
+		
+	}
+	void printPrice(double price) {
+		System.out.println("Price: RM " + price);	
+	}
+	void printTotalPrice(double totalPrice) {
+		
+	}
+	void printReview(String review) {
+		
+	}
+
+}
+
